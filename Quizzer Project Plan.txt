@@ -1,0 +1,26 @@
+# Basic Requirements #
+
+1. The project will use a simple JS interface to build a question.
+
+2. The questions will be stored in text files (probably divided according to subject) and will be stored as a javacript arrays. ( There will initially be a very limited number of questions for test purposes )
+
+3. The interface will first generate and display a randomly selected topic.
+
+	A sample message might be "The topic selected is History".
+
+4. Next a question will be chosen from the appropriate array.
+
+	Example message "Your question is: Who was the first Roman Emperor?"
+
+5. Each question will have a number of answers associated with it (only one of which is correct). One will be selected randomly and displayed.
+
+	Example "The answer is: Tiberius" (a wrong answer)
+
+6. Optionally some interaction with the user would be desirable to give the opportunity to agree or disagree with the answer - perhaps with a short timer.
+
+General points. The number of questions will be fairly limited. The question and answers will be short strings for ease of design.
+
+##Technologies##
+
+Initially csv text files for questions and answers ( stored in as JS arrys as objects )
+Simple JS interface
